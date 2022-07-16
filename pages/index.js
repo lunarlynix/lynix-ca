@@ -1,9 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/navbar";
 import HomeHeader from "../components/headers/homeHeader";
-import ReactMarkdown from 'react-markdown'
-import Footer from "../components/footer";
 
 function Home({ homepage_options, player_count, news }) {
   return (
